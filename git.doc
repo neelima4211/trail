@@ -10,7 +10,7 @@ to check the user.name/user.email
 git config user.name 
 
 to create project folder with git repository
-git init projectname_name
+git init project_name
 this line will initalize empty git repository inthat folder
 
 if folder already exists the same command will take u to that file or u can just run git init when u r in the folder command
@@ -30,12 +30,14 @@ git rm --cached file_name
 
 save version  after every change so that it gets updated
 commit can be done only on stagged files as we will be having diff commits only those files we need in that commit will be stagged and then commited
+git add .
 git commit -m 'msg u want in log'
 by this files are saved to local repository
 
 git log will display all changes or commits
 git log --oneline will display all changes or commits in one line
 
+git checkout commang will show the files in that particular branch
 
 switch btw commits
 git checkout commithascode(5,6 chacters of the commit is enough) (u get this by running git log)
